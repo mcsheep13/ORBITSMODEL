@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      6873,        188]
-NotebookOptionsPosition[      6331,        172]
-NotebookOutlinePosition[      6729,        188]
-CellTagsIndexPosition[      6686,        185]
+NotebookDataLength[     11708,        325]
+NotebookOptionsPosition[     10974,        307]
+NotebookOutlinePosition[     11372,        323]
+CellTagsIndexPosition[     11329,        320]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -66,8 +66,8 @@ Cell[BoxData[{
   ";"}]}], "Input",
  CellChangeTimes->{{3.8586894825766983`*^9, 3.8586895166346684`*^9}, {
   3.8586902777139387`*^9, 3.85869033235513*^9}, {3.858690411454054*^9, 
-  3.858690609768381*^9}},ExpressionUUID->"12ba0e4d-46a6-41c3-b56f-\
-bfd8664d7997"],
+  3.858690609768381*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"12ba0e4d-46a6-41c3-b56f-bfd8664d7997"],
 
 Cell[BoxData[{
  RowBox[{
@@ -117,8 +117,8 @@ Cell[BoxData[{
   ";"}]}], "Input",
  CellChangeTimes->{{3.8586894825766983`*^9, 3.8586895166346684`*^9}, {
   3.8586902777139387`*^9, 3.85869033235513*^9}, {3.858690411454054*^9, 
-  3.8586906160337496`*^9}},ExpressionUUID->"b64e6667-942b-49ca-915a-\
-43c55b30f265"],
+  3.8586906160337496`*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"b64e6667-942b-49ca-915a-43c55b30f265"],
 
 Cell[BoxData[{
  RowBox[{
@@ -168,7 +168,142 @@ Cell[BoxData[{
   ";"}]}], "Input",
  CellChangeTimes->{{3.8586906181868086`*^9, 3.8586906701196704`*^9}, {
   3.858690710670204*^9, 3.8586907659876337`*^9}},
- CellLabel->"In[32]:=",ExpressionUUID->"b5aabe3b-e2ac-4bdc-8605-c17ed475a7e1"]
+ CellLabel->"In[19]:=",ExpressionUUID->"b5aabe3b-e2ac-4bdc-8605-c17ed475a7e1"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"mercurySemiMinorAxis", "=", 
+   RowBox[{"Sqrt", "[", 
+    RowBox[{
+     RowBox[{"mercurySemiMajorAxis", "^", "2"}], 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       RowBox[{"mercuryEccentricity", "^", "2"}]}], ")"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"venusSemiMinorAxis", "=", 
+   RowBox[{"Sqrt", "[", 
+    RowBox[{
+     RowBox[{"venusSemiMajorAxis", "^", "2"}], 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       RowBox[{"venusEccentricity", "^", "2"}]}], ")"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"earthSemiMinorAxis", "=", 
+   RowBox[{"Sqrt", "[", 
+    RowBox[{
+     RowBox[{"earthSemiMajorAxis", "^", "2"}], 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       RowBox[{"earthEccentricity", "^", "2"}]}], ")"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"marsSemiMinorAxis", "=", 
+   RowBox[{"Sqrt", "[", 
+    RowBox[{
+     RowBox[{"marsSemiMajorAxis", "^", "2"}], 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       RowBox[{"marsEccentricity", "^", "2"}]}], ")"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"jupiterSemiMinorAxis", "=", 
+   RowBox[{"Sqrt", "[", 
+    RowBox[{
+     RowBox[{"jupiterSemiMajorAxis", "^", "2"}], 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       RowBox[{"jupiterEccentricity", "^", "2"}]}], ")"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"saturnSemiMinorAxis", "=", 
+   RowBox[{"Sqrt", "[", 
+    RowBox[{
+     RowBox[{"saturnSemiMajorAxis", "^", "2"}], 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       RowBox[{"saturnEccentricity", "^", "2"}]}], ")"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"uranusSemiMinorAxis", "=", 
+   RowBox[{"Sqrt", "[", 
+    RowBox[{
+     RowBox[{"uranusSemiMajorAxis", "^", "2"}], 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       RowBox[{"uranusEccentricity", "^", "2"}]}], ")"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"neptuneSemiMinorAxis", "=", 
+   RowBox[{"Sqrt", "[", 
+    RowBox[{
+     RowBox[{"neptuneSemiMajorAxis", "^", "2"}], 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       RowBox[{"neptuneEccentricity", "^", "2"}]}], ")"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"plutoSemiMinorAxis", "=", 
+   RowBox[{"Sqrt", "[", 
+    RowBox[{
+     RowBox[{"plutoSemiMajorAxis", "^", "2"}], 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       RowBox[{"plutoEccentricity", "^", "2"}]}], ")"}]}], "]"}]}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.8586910651882577`*^9, 3.8586910858140783`*^9}, {
+   3.858691133135793*^9, 3.8586913239740257`*^9}, 3.8586914120034513`*^9},
+ CellLabel->"In[46]:=",ExpressionUUID->"486d855e-9eb7-4229-b7d7-a81fbe5e2f0d"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"mercuryOrbitPeriod", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Mercury\>\"", ",", "\"\<OrbitPeriod\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"venusOrbitPeriod", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Venus\>\"", ",", "\"\<OrbitPeriod\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"earthOrbitPeriod", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Earth\>\"", ",", "\"\<OrbitPeriod\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"marsOrbitPeriod", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Mars\>\"", ",", "\"\<OrbitPeriod\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"jupiterOrbitPeriod", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Jupiter\>\"", ",", "\"\<OrbitPeriod\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"saturnOrbitPeriod", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Saturn\>\"", ",", "\"\<OrbitPeriod\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"uranusOrbitPeriod", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Uranus\>\"", ",", "\"\<OrbitPeriod\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"neptuneOrbitPeriod", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Neptune\>\"", ",", "\"\<OrbitPeriod\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"plutoOrbitPeriod", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Pluto\>\"", ",", "\"\<OrbitPeriod\>\""}], "]"}]}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.858691462523873*^9, 3.8586915698701544`*^9}},
+ CellLabel->"In[55]:=",ExpressionUUID->"926f645e-4880-49de-bc3e-f742489667d3"]
 },
 WindowSize->{760, 833},
 WindowMargins->{{Automatic, 38}, {-6, Automatic}},
@@ -187,9 +322,11 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 1957, 49, 181, "Input",ExpressionUUID->"12ba0e4d-46a6-41c3-b56f-bfd8664d7997"],
-Cell[2518, 71, 1926, 49, 181, "Input",ExpressionUUID->"b64e6667-942b-49ca-915a-43c55b30f265"],
-Cell[4447, 122, 1880, 48, 235, "Input",ExpressionUUID->"b5aabe3b-e2ac-4bdc-8605-c17ed475a7e1"]
+Cell[558, 20, 1978, 49, 181, "Input",ExpressionUUID->"12ba0e4d-46a6-41c3-b56f-bfd8664d7997"],
+Cell[2539, 71, 1948, 49, 181, "Input",ExpressionUUID->"b64e6667-942b-49ca-915a-43c55b30f265"],
+Cell[4490, 122, 1880, 48, 181, "Input",ExpressionUUID->"b5aabe3b-e2ac-4bdc-8605-c17ed475a7e1"],
+Cell[6373, 172, 2767, 84, 181, "Input",ExpressionUUID->"486d855e-9eb7-4229-b7d7-a81fbe5e2f0d"],
+Cell[9143, 258, 1827, 47, 235, "Input",ExpressionUUID->"926f645e-4880-49de-bc3e-f742489667d3"]
 }
 ]
 *)
