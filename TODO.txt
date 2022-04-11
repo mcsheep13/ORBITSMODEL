@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 1 - Define variables
 2 - Determine parametrics
 3 - Write modeling functions
 4 - Export as .gif files
+=======
+Divide the workload
+Get acquainted with Git
+Define project's purpose/goal
+>>>>>>> 2932c5b56c9dd223368283bf84078b42f00d4a45
