@@ -1,0 +1,4 @@
+1 - Define variables
+2 - Determine parametrics
+3 - Write modeling functions
+4 - Export as .gif files
