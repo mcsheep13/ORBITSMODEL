@@ -10,35 +10,165 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1697,         59]
-NotebookOptionsPosition[      1224,         42]
-NotebookOutlinePosition[      1622,         58]
-CellTagsIndexPosition[      1579,         55]
+NotebookDataLength[      6873,        188]
+NotebookOptionsPosition[      6331,        172]
+NotebookOutlinePosition[      6729,        188]
+CellTagsIndexPosition[      6686,        185]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-
-Cell[CellGroupData[{
-Cell[BoxData[
+Cell[BoxData[{
  RowBox[{
-  RowBox[{
-   RowBox[{"earthMajorAxis", " ", "=", " ", 
-    RowBox[{"AstronomicalData", "[", 
-     RowBox[{"\"\<Earth\>\"", ",", "\"\<SemimajorAxis\>\""}], "]"}]}], ";"}], 
-  "\[IndentingNewLine]"}]], "Input",
- CellChangeTimes->{{3.8586894825766983`*^9, 
-  3.8586895166346684`*^9}},ExpressionUUID->"12ba0e4d-46a6-41c3-b56f-\
+  RowBox[{"mercurySemiMajorAxis", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Mercury\>\"", ",", "\"\<SemimajorAxis\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"venusSemiMajorAxis", " ", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Venus\>\"", ",", "\"\<SemimajorAxis\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"earthSemiMajorAxis", " ", "=", " ", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Earth\>\"", ",", "\"\<SemimajorAxis\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"marsSemiMajorAxis", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Mars\>\"", ",", "\"\<SemimajorAxis\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"jupiterSemiMajorAxis", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Jupiter\>\"", ",", "\"\<SemimajorAxis\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"saturnSemiMajorAxis", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Saturn\>\"", ",", "\"\<SemimajorAxis\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"uranusSemiMajorAxis", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Uranus\>\"", ",", "\"\<SemimajorAxis\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"neptuneSemiMajorAxis", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Neptune\>\"", ",", "\"\<SemimajorAxis\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"plutoSemiMajorAxis", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Pluto\>\"", ",", "\"\<SemimajorAxis\>\""}], "]"}]}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.8586894825766983`*^9, 3.8586895166346684`*^9}, {
+  3.8586902777139387`*^9, 3.85869033235513*^9}, {3.858690411454054*^9, 
+  3.858690609768381*^9}},ExpressionUUID->"12ba0e4d-46a6-41c3-b56f-\
 bfd8664d7997"],
 
-Cell[BoxData[
- TemplateBox[{
-  "1.4959788714676577601`8.99956592252068*^11", "\"m\"", "meters", 
-   "\"Meters\""},
-  "Quantity"]], "Output",
- CellChangeTimes->{3.8586895129422054`*^9},
- CellLabel->"Out[2]=",ExpressionUUID->"e6372489-7a38-4cc8-a5f1-868359f794de"]
-}, Open  ]]
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"mercuryEccentricity", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Mercury\>\"", ",", "\"\<Eccentricity\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"venusEccentricity", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Venus\>\"", ",", "\"\<Eccentricity\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"earthEccentricity", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Earth\>\"", ",", "\"\<Eccentricity\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"marsEccentricity", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Mars\>\"", ",", "\"\<Eccentricity\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"jupiterEccentricity", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Jupiter\>\"", ",", "\"\<Eccentricity\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"saturnEccentricity", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Saturn\>\"", ",", "\"\<Eccentricity\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"uranusEccentricity", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Uranus\>\"", ",", "\"\<Eccentricity\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"neptuneEccentricity", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Neptune\>\"", ",", "\"\<Eccentricity\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"plutoEccentricity", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Pluto\>\"", ",", "\"\<Eccentricity\>\""}], "]"}]}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.8586894825766983`*^9, 3.8586895166346684`*^9}, {
+  3.8586902777139387`*^9, 3.85869033235513*^9}, {3.858690411454054*^9, 
+  3.8586906160337496`*^9}},ExpressionUUID->"b64e6667-942b-49ca-915a-\
+43c55b30f265"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"mercuryInclination", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Mercury\>\"", ",", "\"\<Inclination\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"venusInclination", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Venus\>\"", ",", "\"\<Inclination\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"earthInclination", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Earth\>\"", ",", "\"\<Inclination\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"marsInclination", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Mars\>\"", ",", "\"\<Inclination\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"jupiterInclination", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Jupiter\>\"", ",", "\"\<Inclination\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"saturnInclination", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Saturn\>\"", ",", "\"\<Inclination\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"uranusInclination", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Uranus\>\"", ",", "\"\<Inclination\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"neptuneInclination", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Neptune\>\"", ",", "\"\<Inclination\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"plutoInclination", "=", 
+   RowBox[{"AstronomicalData", "[", 
+    RowBox[{"\"\<Pluto\>\"", ",", "\"\<Inclination\>\""}], "]"}]}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.8586906181868086`*^9, 3.8586906701196704`*^9}, {
+  3.858690710670204*^9, 3.8586907659876337`*^9}},
+ CellLabel->"In[32]:=",ExpressionUUID->"b5aabe3b-e2ac-4bdc-8605-c17ed475a7e1"]
 },
 WindowSize->{760, 833},
 WindowMargins->{{Automatic, 38}, {-6, Automatic}},
@@ -57,13 +187,10 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[CellGroupData[{
-Cell[580, 22, 363, 9, 48, "Input",ExpressionUUID->"12ba0e4d-46a6-41c3-b56f-bfd8664d7997"],
-Cell[946, 33, 262, 6, 44, "Output",ExpressionUUID->"e6372489-7a38-4cc8-a5f1-868359f794de"]
-}, Open  ]]
+Cell[558, 20, 1957, 49, 181, "Input",ExpressionUUID->"12ba0e4d-46a6-41c3-b56f-bfd8664d7997"],
+Cell[2518, 71, 1926, 49, 181, "Input",ExpressionUUID->"b64e6667-942b-49ca-915a-43c55b30f265"],
+Cell[4447, 122, 1880, 48, 235, "Input",ExpressionUUID->"b5aabe3b-e2ac-4bdc-8605-c17ed475a7e1"]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
