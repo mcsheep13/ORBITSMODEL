@@ -1,0 +1,240 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8863,        232]
+NotebookOptionsPosition[      8379,        215]
+NotebookOutlinePosition[      8779,        231]
+CellTagsIndexPosition[      8736,        228]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{"Evaluate", " ", "all", " ", "other", " ", "notebooks", " ", 
+    RowBox[{"first", "!"}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Animate", "[", 
+    RowBox[{
+     RowBox[{"Show", "[", 
+      RowBox[{"mercuryPlotXY", ",", 
+       RowBox[{"Graphics", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"mercuryX", "[", "t", "]"}], ",", 
+             RowBox[{"mercuryY", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], 
+        "]"}], ",", "venusPlotXY", ",", 
+       RowBox[{"Graphics", "[", 
+        RowBox[{"{", 
+         RowBox[{"Pink", ",", 
+          RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"venusX", "[", "t", "]"}], ",", 
+             RowBox[{"venusY", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], 
+        "]"}], ",", "earthPlotXY", ",", 
+       RowBox[{"Graphics", "[", 
+        RowBox[{"{", 
+         RowBox[{"Blue", ",", 
+          RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"earthX", "[", "t", "]"}], ",", 
+             RowBox[{"earthY", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], 
+        "]"}], ",", "marsPlotXY", ",", 
+       RowBox[{"Graphics", "[", 
+        RowBox[{"{", 
+         RowBox[{"Red", ",", 
+          RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"marsX", "[", "t", "]"}], ",", 
+             RowBox[{"marsY", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], "]"}],
+        ",", "halleysCometPlotXY", ",", 
+       RowBox[{"Graphics", "[", 
+        RowBox[{"{", 
+         RowBox[{"Green", ",", 
+          RowBox[{"PointSize", "[", "0.03", "]"}], ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"halleysCometX", "[", "t", "]"}], ",", 
+             RowBox[{"halleysCometY", "[", "t", "]"}]}], "}"}], "]"}]}], 
+         "}"}], "]"}], ",", "outerPlanet2DParaPlot", ",", 
+       RowBox[{"Graphics", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"PointSize", "[", "Large", "]"}], ",", "Orange", ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"paraJupx", "[", "t", "]"}], ",", 
+             RowBox[{"paraJupy", "[", "t", "]"}]}], "}"}], "]"}], ",", 
+          "Yellow", ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"paraSatx", "[", "t", "]"}], ",", 
+             RowBox[{"paraSaty", "[", "t", "]"}]}], "}"}], "]"}], ",", "Cyan",
+           ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"paraUrax", "[", "t", "]"}], ",", 
+             RowBox[{"paraUray", "[", "t", "]"}]}], "}"}], "]"}], ",", "Blue",
+           ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"paraNepx", "[", "t", "]"}], ",", 
+             RowBox[{"paraNepy", "[", "t", "]"}]}], "}"}], "]"}], ",", 
+          "Purple", ",", 
+          RowBox[{"Point", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"paraPlux", "[", "t", "]"}], ",", 
+             RowBox[{"paraPluy", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], 
+        "]"}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", "All"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", "0", ",", 
+       RowBox[{"plutoOrbitEarthYears", "*", "2", "Pi"}]}], "}"}]}], "]"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]"}]}]], "Input",
+ CellChangeTimes->{{3.8588009081508007`*^9, 
+  3.858801017970457*^9}},ExpressionUUID->"d9a42cc7-257e-43a2-b38c-\
+f09013c1f234"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`t$$ = 926.8010386604807, Typeset`show$$ = 
+    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`t$$], 0, 1557.7042813719168747369`7.698970004336019}},
+     Typeset`size$$ = {360., {167., 172.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`t$$ = 0}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Show[$CellContext`mercuryPlotXY, 
+        Graphics[{
+          PointSize[0.02], 
+          Point[{
+            $CellContext`mercuryX[$CellContext`t$$], 
+            $CellContext`mercuryY[$CellContext`t$$]}]}], \
+$CellContext`venusPlotXY, 
+        Graphics[{Pink, 
+          PointSize[0.02], 
+          Point[{
+            $CellContext`venusX[$CellContext`t$$], 
+            $CellContext`venusY[$CellContext`t$$]}]}], \
+$CellContext`earthPlotXY, 
+        Graphics[{Blue, 
+          PointSize[0.02], 
+          Point[{
+            $CellContext`earthX[$CellContext`t$$], 
+            $CellContext`earthY[$CellContext`t$$]}]}], \
+$CellContext`marsPlotXY, 
+        Graphics[{Red, 
+          PointSize[0.02], 
+          Point[{
+            $CellContext`marsX[$CellContext`t$$], 
+            $CellContext`marsY[$CellContext`t$$]}]}], \
+$CellContext`halleysCometPlotXY, 
+        Graphics[{Green, 
+          PointSize[0.03], 
+          Point[{
+            $CellContext`halleysCometX[$CellContext`t$$], 
+            $CellContext`halleysCometY[$CellContext`t$$]}]}], \
+$CellContext`outerPlanet2DParaPlot, 
+        Graphics[{
+          PointSize[Large], Orange, 
+          Point[{
+            $CellContext`paraJupx[$CellContext`t$$], 
+            $CellContext`paraJupy[$CellContext`t$$]}], Yellow, 
+          Point[{
+            $CellContext`paraSatx[$CellContext`t$$], 
+            $CellContext`paraSaty[$CellContext`t$$]}], Cyan, 
+          Point[{
+            $CellContext`paraUrax[$CellContext`t$$], 
+            $CellContext`paraUray[$CellContext`t$$]}], Blue, 
+          Point[{
+            $CellContext`paraNepx[$CellContext`t$$], 
+            $CellContext`paraNepy[$CellContext`t$$]}], Purple, 
+          Point[{
+            $CellContext`paraPlux[$CellContext`t$$], 
+            $CellContext`paraPluy[$CellContext`t$$]}]}], PlotRange -> All], 
+      "Specifications" :> {{$CellContext`t$$, 0, 
+         1557.7042813719168747369`7.698970004336019, 
+         AppearanceElements -> {
+          "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+           "DirectionButton"}}}, 
+      "Options" :> {
+       ControlType -> Animator, AppearanceElements -> None, DefaultBaseStyle -> 
+        "Animate", DefaultLabelStyle -> "AnimateLabel", SynchronousUpdating -> 
+        True, ShrinkingDelay -> 10.}, "DefaultOptions" :> {}],
+     ImageSizeCache->{411., {206., 212.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Animate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.8588009570306234`*^9, 3.858800987293454*^9}},
+ CellLabel->
+  "Out[182]=",ExpressionUUID->"174c21e8-f476-44c5-ae9e-dccb333542c3"]
+}, Open  ]]
+},
+WindowSize->{759, 813},
+WindowMargins->{{572, Automatic}, {Automatic, 104}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d75ef7cc-06a6-4fbf-abc0-8faa7da275a8"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 3955, 101, 295, "Input",ExpressionUUID->"d9a42cc7-257e-43a2-b38c-f09013c1f234"],
+Cell[4538, 125, 3825, 87, 437, "Output",ExpressionUUID->"174c21e8-f476-44c5-ae9e-dccb333542c3"]
+}, Open  ]]
+}
+]
+*)
+
