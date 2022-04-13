@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      8863,        232]
-NotebookOptionsPosition[      8379,        215]
-NotebookOutlinePosition[      8779,        231]
-CellTagsIndexPosition[      8736,        228]
+NotebookDataLength[      9254,        239]
+NotebookOptionsPosition[      8770,        222]
+NotebookOutlinePosition[      9170,        238]
+CellTagsIndexPosition[      9127,        235]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -26,107 +26,113 @@ Cell[BoxData[
    RowBox[{"Evaluate", " ", "all", " ", "other", " ", "notebooks", " ", 
     RowBox[{"first", "!"}]}], "*)"}], "\[IndentingNewLine]", 
   RowBox[{
-   RowBox[{"Animate", "[", 
-    RowBox[{
-     RowBox[{"Show", "[", 
-      RowBox[{"mercuryPlotXY", ",", 
-       RowBox[{"Graphics", "[", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
-          RowBox[{"Point", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"mercuryX", "[", "t", "]"}], ",", 
-             RowBox[{"mercuryY", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], 
-        "]"}], ",", "venusPlotXY", ",", 
-       RowBox[{"Graphics", "[", 
-        RowBox[{"{", 
-         RowBox[{"Pink", ",", 
-          RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
-          RowBox[{"Point", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"venusX", "[", "t", "]"}], ",", 
-             RowBox[{"venusY", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], 
-        "]"}], ",", "earthPlotXY", ",", 
-       RowBox[{"Graphics", "[", 
-        RowBox[{"{", 
-         RowBox[{"Blue", ",", 
-          RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
-          RowBox[{"Point", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"earthX", "[", "t", "]"}], ",", 
-             RowBox[{"earthY", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], 
-        "]"}], ",", "marsPlotXY", ",", 
-       RowBox[{"Graphics", "[", 
-        RowBox[{"{", 
-         RowBox[{"Red", ",", 
-          RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
-          RowBox[{"Point", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"marsX", "[", "t", "]"}], ",", 
-             RowBox[{"marsY", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], "]"}],
-        ",", "halleysCometPlotXY", ",", 
-       RowBox[{"Graphics", "[", 
-        RowBox[{"{", 
-         RowBox[{"Green", ",", 
-          RowBox[{"PointSize", "[", "0.03", "]"}], ",", 
-          RowBox[{"Point", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"halleysCometX", "[", "t", "]"}], ",", 
-             RowBox[{"halleysCometY", "[", "t", "]"}]}], "}"}], "]"}]}], 
-         "}"}], "]"}], ",", "outerPlanet2DParaPlot", ",", 
-       RowBox[{"Graphics", "[", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"PointSize", "[", "Large", "]"}], ",", "Orange", ",", 
-          RowBox[{"Point", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"paraJupx", "[", "t", "]"}], ",", 
-             RowBox[{"paraJupy", "[", "t", "]"}]}], "}"}], "]"}], ",", 
-          "Yellow", ",", 
-          RowBox[{"Point", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"paraSatx", "[", "t", "]"}], ",", 
-             RowBox[{"paraSaty", "[", "t", "]"}]}], "}"}], "]"}], ",", "Cyan",
-           ",", 
-          RowBox[{"Point", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"paraUrax", "[", "t", "]"}], ",", 
-             RowBox[{"paraUray", "[", "t", "]"}]}], "}"}], "]"}], ",", "Blue",
-           ",", 
-          RowBox[{"Point", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"paraNepx", "[", "t", "]"}], ",", 
-             RowBox[{"paraNepy", "[", "t", "]"}]}], "}"}], "]"}], ",", 
-          "Purple", ",", 
-          RowBox[{"Point", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"paraPlux", "[", "t", "]"}], ",", 
-             RowBox[{"paraPluy", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], 
-        "]"}], ",", 
-       RowBox[{"PlotRange", "\[Rule]", "All"}]}], "]"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"t", ",", "0", ",", 
-       RowBox[{"plutoOrbitEarthYears", "*", "2", "Pi"}]}], "}"}]}], "]"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]"}]}]], "Input",
- CellChangeTimes->{{3.8588009081508007`*^9, 
-  3.858801017970457*^9}},ExpressionUUID->"d9a42cc7-257e-43a2-b38c-\
-f09013c1f234"],
+   RowBox[{"finalModelXY", "=", 
+    RowBox[{"Animate", "[", 
+     RowBox[{
+      RowBox[{"Show", "[", 
+       RowBox[{"mercuryPlotXY", ",", 
+        RowBox[{"Graphics", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
+           RowBox[{"Point", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"mercuryX", "[", "t", "]"}], ",", 
+              RowBox[{"mercuryY", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], 
+         "]"}], ",", "venusPlotXY", ",", 
+        RowBox[{"Graphics", "[", 
+         RowBox[{"{", 
+          RowBox[{"Pink", ",", 
+           RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
+           RowBox[{"Point", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"venusX", "[", "t", "]"}], ",", 
+              RowBox[{"venusY", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], 
+         "]"}], ",", "earthPlotXY", ",", 
+        RowBox[{"Graphics", "[", 
+         RowBox[{"{", 
+          RowBox[{"Blue", ",", 
+           RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
+           RowBox[{"Point", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"earthX", "[", "t", "]"}], ",", 
+              RowBox[{"earthY", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], 
+         "]"}], ",", "marsPlotXY", ",", 
+        RowBox[{"Graphics", "[", 
+         RowBox[{"{", 
+          RowBox[{"Red", ",", 
+           RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
+           RowBox[{"Point", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"marsX", "[", "t", "]"}], ",", 
+              RowBox[{"marsY", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], 
+         "]"}], ",", "halleysCometPlotXY", ",", 
+        RowBox[{"Graphics", "[", 
+         RowBox[{"{", 
+          RowBox[{"Green", ",", 
+           RowBox[{"PointSize", "[", "0.03", "]"}], ",", 
+           RowBox[{"Point", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"halleysCometX", "[", "t", "]"}], ",", 
+              RowBox[{"halleysCometY", "[", "t", "]"}]}], "}"}], "]"}]}], 
+          "}"}], "]"}], ",", "outerPlanet2DParaPlot", ",", 
+        RowBox[{"Graphics", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"PointSize", "[", "Large", "]"}], ",", "Orange", ",", 
+           RowBox[{"Point", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"paraJupx", "[", "t", "]"}], ",", 
+              RowBox[{"paraJupy", "[", "t", "]"}]}], "}"}], "]"}], ",", 
+           "Yellow", ",", 
+           RowBox[{"Point", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"paraSatx", "[", "t", "]"}], ",", 
+              RowBox[{"paraSaty", "[", "t", "]"}]}], "}"}], "]"}], ",", 
+           "Cyan", ",", 
+           RowBox[{"Point", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"paraUrax", "[", "t", "]"}], ",", 
+              RowBox[{"paraUray", "[", "t", "]"}]}], "}"}], "]"}], ",", 
+           "Blue", ",", 
+           RowBox[{"Point", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"paraNepx", "[", "t", "]"}], ",", 
+              RowBox[{"paraNepy", "[", "t", "]"}]}], "}"}], "]"}], ",", 
+           "Purple", ",", 
+           RowBox[{"Point", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"paraPlux", "[", "t", "]"}], ",", 
+              RowBox[{"paraPluy", "[", "t", "]"}]}], "}"}], "]"}]}], "}"}], 
+         "]"}], ",", 
+        RowBox[{"PlotRange", "\[Rule]", "All"}]}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"t", ",", "0", ",", 
+        RowBox[{"plutoOrbitEarthYears", "*", "2", "Pi"}]}], "}"}]}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Export", "[", 
+     RowBox[{"\"\<Final Model With Comet XY.gif\>\"", ",", "finalModelXY"}], 
+     "]"}], ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]"}]}]], "Input",
+ CellChangeTimes->{{3.8588009081508007`*^9, 3.858801017970457*^9}, {
+  3.8588557335881453`*^9, 3.858855788656845*^9}},
+ CellLabel->
+  "In[273]:=",ExpressionUUID->"d9a42cc7-257e-43a2-b38c-f09013c1f234"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`t$$ = 926.8010386604807, Typeset`show$$ = 
+   DynamicModuleBox[{$CellContext`t$$ = 574.3826561599747, Typeset`show$$ = 
     True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{
@@ -208,13 +214,14 @@ $CellContext`outerPlanet2DParaPlot,
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{{3.8588009570306234`*^9, 3.858800987293454*^9}},
+ CellChangeTimes->{{3.8588009570306234`*^9, 3.858800987293454*^9}, 
+   3.8588557891892223`*^9},
  CellLabel->
-  "Out[182]=",ExpressionUUID->"174c21e8-f476-44c5-ae9e-dccb333542c3"]
+  "Out[273]=",ExpressionUUID->"ba77777f-5f25-4f76-bf53-051662d5b003"]
 }, Open  ]]
 },
-WindowSize->{759, 813},
-WindowMargins->{{572, Automatic}, {Automatic, 104}},
+WindowSize->{1920, 1037},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
 FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"d75ef7cc-06a6-4fbf-abc0-8faa7da275a8"
@@ -231,8 +238,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 3955, 101, 295, "Input",ExpressionUUID->"d9a42cc7-257e-43a2-b38c-f09013c1f234"],
-Cell[4538, 125, 3825, 87, 437, "Output",ExpressionUUID->"174c21e8-f476-44c5-ae9e-dccb333542c3"]
+Cell[580, 22, 4318, 107, 162, "Input",ExpressionUUID->"d9a42cc7-257e-43a2-b38c-f09013c1f234"],
+Cell[4901, 131, 3853, 88, 458, "Output",ExpressionUUID->"ba77777f-5f25-4f76-bf53-051662d5b003"]
 }, Open  ]]
 }
 ]
