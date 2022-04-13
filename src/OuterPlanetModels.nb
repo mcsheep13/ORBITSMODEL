@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     51737,       1245]
-NotebookOptionsPosition[     48707,       1195]
-NotebookOutlinePosition[     49250,       1214]
-CellTagsIndexPosition[     49207,       1211]
+NotebookDataLength[     36801,        922]
+NotebookOptionsPosition[     34779,        889]
+NotebookOutlinePosition[     35321,        908]
+CellTagsIndexPosition[     35278,        905]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -529,8 +529,6 @@ Cell[BoxData[
  CellLabel->
   "In[195]:=",ExpressionUUID->"7f9c43f6-1aba-4501-bbf8-32e0c40d3c2b"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[{
  RowBox[{"plot2Daxes", "=", 
   RowBox[{"Animate", "[", 
@@ -635,140 +633,15 @@ Cell[BoxData[{
       RowBox[{"plutoOrbitEarthYears", "*", "2", "Pi"}]}], "}"}]}], 
    "]"}]}]}], "Input",
  CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGAQB2IQzSQ7O5D9wBvHg63BoSDaOqs+B0Qzhbg1gOiOOtYp
+1:eJxTTMoPSmViYGCQBGIQzSQ7O5D9wBvHg63BoSDaOqs+B0Qzhbg1gOiOOtYp
 INqg4N80EF0088YGED1rPt9GEL3w0I+jIDrlPO8pEJ2WffkciH6seuMyiP6i
 fOQD2LzmA59A9NbLXr9AtMk0XiYOkHy5FjuIPuZwRQpEd1zKtwLRHzy+W4No
 172tnnxAuvVNO5iedCwoCUTfs2JIBtGrrqXXg+hFUjENIFp48ZFbIPpPhtFt
 EL339KH7IPpz008w3V/Q9AlEJyYd+Q6iBUJPcvMD6UNlTIIgWs/1oByIru+I
 UgDRBWU3d4HoFCHW3SB62ew7+0H0kg/OB0C00915R0D0vCNCl0H0zjnht0H0
-vTPvwbS75s23QkD6b2zOBxANAAUrv0w=
-  "],
- CellLabel->
-  "In[205]:=",ExpressionUUID->"9dad80e4-5e77-4597-9009-42045be55f0e"],
-
-Cell[BoxData[
- TagBox[
-  StyleBox[
-   DynamicModuleBox[{$CellContext`t$$ = 1064.9627365493986`, Typeset`show$$ = 
-    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-    "\"untitled\"", Typeset`specs$$ = {{
-      Hold[$CellContext`t$$], 0, 1557.7042813719168747369`7.698970004336019}},
-     Typeset`size$$ = {396.00000000000006`, {185., 189.26563971802346`}}, 
-    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
-    DynamicBox[Manipulate`ManipulateBoxes[
-     1, StandardForm, "Variables" :> {$CellContext`t$$ = 0}, 
-      "ControllerVariables" :> {}, 
-      "OtherVariables" :> {
-       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
-        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
-        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
-         Typeset`skipInitDone$$}, "Body" :> 
-      Show[$CellContext`outerPlanet2DParaPlot, 
-        Graphics[{
-          PointSize[Large], Orange, 
-          Point[{
-            $CellContext`paraJupx[$CellContext`t$$], 
-            $CellContext`paraJupy[$CellContext`t$$]}], Yellow, 
-          Point[{
-            $CellContext`paraSatx[$CellContext`t$$], 
-            $CellContext`paraSaty[$CellContext`t$$]}], Cyan, 
-          Point[{
-            $CellContext`paraUrax[$CellContext`t$$], 
-            $CellContext`paraUray[$CellContext`t$$]}], Blue, 
-          Point[{
-            $CellContext`paraNepx[$CellContext`t$$], 
-            $CellContext`paraNepy[$CellContext`t$$]}], Purple, 
-          Point[{
-            $CellContext`paraPlux[$CellContext`t$$], 
-            $CellContext`paraPluy[$CellContext`t$$]}]}]], 
-      "Specifications" :> {{$CellContext`t$$, 0, 
-         1557.7042813719168747369`7.698970004336019, 
-         AppearanceElements -> {
-          "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
-           "DirectionButton"}}}, 
-      "Options" :> {
-       ControlType -> Animator, AppearanceElements -> None, DefaultBaseStyle -> 
-        "Animate", DefaultLabelStyle -> "AnimateLabel", SynchronousUpdating -> 
-        True, ShrinkingDelay -> 10.}, "DefaultOptions" :> {}],
-     ImageSizeCache->{780., {208., 214.}},
-     SingleEvaluation->True],
-    Deinitialization:>None,
-    DynamicModuleValues:>{},
-    SynchronousInitialization->True,
-    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
-    UnsavedVariables:>{Typeset`initDone$$},
-    UntrackedVariables:>{Typeset`size$$}], "Animate",
-   Deployed->True,
-   StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.8587980789615097`*^9, 3.858798468317814*^9},
- CellLabel->
-  "Out[205]=",ExpressionUUID->"982af1e7-96b2-476a-a1d9-e9b8775075df"],
-
-Cell[BoxData[
- TagBox[
-  StyleBox[
-   DynamicModuleBox[{$CellContext`t$$ = 186.88422585024824`, Typeset`show$$ = 
-    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-    "\"untitled\"", Typeset`specs$$ = {{
-      Hold[$CellContext`t$$], 0, 1557.7042813719168747369`7.698970004336019}},
-     Typeset`size$$ = {396.00000000000006`, {189., 194.5815459643622}}, 
-    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
-    DynamicBox[Manipulate`ManipulateBoxes[
-     1, StandardForm, "Variables" :> {$CellContext`t$$ = 0}, 
-      "ControllerVariables" :> {}, 
-      "OtherVariables" :> {
-       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
-        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
-        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
-         Typeset`skipInitDone$$}, "Body" :> Graphics[{
-         PointSize[Large], Orange, 
-         Point[{
-           $CellContext`paraJupx[$CellContext`t$$], 
-           $CellContext`paraJupy[$CellContext`t$$]}], Yellow, 
-         Point[{
-           $CellContext`paraSatx[$CellContext`t$$], 
-           $CellContext`paraSaty[$CellContext`t$$]}], Cyan, 
-         Point[{
-           $CellContext`paraUrax[$CellContext`t$$], 
-           $CellContext`paraUray[$CellContext`t$$]}], Blue, 
-         Point[{
-           $CellContext`paraNepx[$CellContext`t$$], 
-           $CellContext`paraNepy[$CellContext`t$$]}], Purple, 
-         Point[{
-           $CellContext`paraPlux[$CellContext`t$$], 
-           $CellContext`paraPluy[$CellContext`t$$]}]}, 
-        PlotRange -> {{-QuantityMagnitude[$CellContext`plutoSemiMajorAxis], 
-           QuantityMagnitude[$CellContext`plutoSemiMajorAxis]}, {-
-           QuantityMagnitude[$CellContext`plutoSemiMinorAxis], 
-           QuantityMagnitude[$CellContext`plutoSemiMinorAxis]}}, Axes -> 
-        True], 
-      "Specifications" :> {{$CellContext`t$$, 0, 
-         1557.7042813719168747369`7.698970004336019, 
-         AppearanceElements -> {
-          "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
-           "DirectionButton"}}}, 
-      "Options" :> {
-       ControlType -> Animator, AppearanceElements -> None, DefaultBaseStyle -> 
-        "Animate", DefaultLabelStyle -> "AnimateLabel", SynchronousUpdating -> 
-        True, ShrinkingDelay -> 10.}, "DefaultOptions" :> {}],
-     ImageSizeCache->{780., {212., 218.}},
-     SingleEvaluation->True],
-    Deinitialization:>None,
-    DynamicModuleValues:>{},
-    SynchronousInitialization->True,
-    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
-    UnsavedVariables:>{Typeset`initDone$$},
-    UntrackedVariables:>{Typeset`size$$}], "Animate",
-   Deployed->True,
-   StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.8587980789615097`*^9, 3.858798468355926*^9},
- CellLabel->
-  "Out[206]=",ExpressionUUID->"3b7971d4-3030-4bfb-b68d-dc357c8fec78"]
-}, Open  ]],
+vTPvwbS75s23QkD6b2zOBxBtk9nYJQ6kQ5ilukF0haxhvwSQvnvqC5gGANe7
+zos=
+  "],ExpressionUUID->"9dad80e4-5e77-4597-9009-42045be55f0e"],
 
 Cell[BoxData[
  RowBox[{
@@ -822,8 +695,6 @@ Cell[BoxData[
    3.858798111217385*^9},
  CellLabel->
   "In[202]:=",ExpressionUUID->"ba45f4e2-c33b-4cfb-a5bf-33c10dcb92fb"],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[{
  RowBox[{
@@ -982,162 +853,14 @@ Cell[BoxData[{
          RowBox[{"plutoInclination", "*", "Degree"}], "]"}]}]}]}], "}"}]}], 
    "]"}]}]}], "Input",
  CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGAQAWIQvSySvUfgwBvHHmFzMH3k4e2FIHoTc8VKEM3VqXQA
+1:eJxTTMoPSmViYGAQA2IQvSySvUfgwBvHHmFzMH3k4e2FIHoTc8VKEM3VqXQA
 RDfaVR4C0ecmth8D0QX15idA9B2++nMg+kDy+dcgmu/0x/cguiuy8SOIvrDI
 l08QSFstmASmv0+KCgfRB+ZOiATRn6bYZoDoSzyLwHTUy3dlIPqcjWkliFaZ
 83w1iJ7SunIDiJ5zyWsriP56cdFREN0RpfsIRE97PekZiE6PmCskBKR3/tEV
 A9ERn/9Jgmgm4TfSIPptD4cSiG5ZE6oCol+179AA0bxXRI1A9KXzsmYgOmPT
-H3MQnVJrehJE7zoreApEPy/I+giiJ1zl+QyiAXdIpkw=
-  "],
- CellLabel->
-  "In[209]:=",ExpressionUUID->"99ac1d6c-e90c-4aa0-bf3a-c0eff8694742"],
-
-Cell[BoxData[
- TagBox[
-  StyleBox[
-   DynamicModuleBox[{$CellContext`t$$ = 2493.919777965724, Typeset`show$$ = 
-    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-    "\"untitled\"", Typeset`specs$$ = {{
-      Hold[$CellContext`t$$], 0, 3115.4510354303080796135`7.698910800691146}},
-     Typeset`size$$ = {396.00000000000006`, {121., 126.44906059621957`}}, 
-    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
-    DynamicBox[Manipulate`ManipulateBoxes[
-     1, StandardForm, "Variables" :> {$CellContext`t$$ = 0}, 
-      "ControllerVariables" :> {}, 
-      "OtherVariables" :> {
-       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
-        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
-        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
-         Typeset`skipInitDone$$}, "Body" :> 
-      Show[$CellContext`outerPlanet3DParaPlot, 
-        Graphics3D[{
-          PointSize[Large], Orange, 
-          Point[{
-            $CellContext`paraJupx[$CellContext`t$$], 
-            $CellContext`paraJupy3D[$CellContext`t$$], 
-            $CellContext`paraJupz[$CellContext`t$$]}], Yellow, 
-          Point[{
-            $CellContext`paraSatx[$CellContext`t$$], 
-            $CellContext`paraSaty3D[$CellContext`t$$], 
-            $CellContext`paraSatz[$CellContext`t$$]}], Cyan, 
-          Point[{
-            $CellContext`paraUrax[$CellContext`t$$], 
-            $CellContext`paraUray3D[$CellContext`t$$], 
-            $CellContext`paraUraz[$CellContext`t$$]}], Blue, 
-          Point[{
-            $CellContext`paraNepx[$CellContext`t$$], 
-            $CellContext`paraNepy3D[$CellContext`t$$], 
-            $CellContext`paraNepz[$CellContext`t$$]}], Purple, 
-          Point[{
-            $CellContext`paraPlux[$CellContext`t$$], 
-            $CellContext`paraPluy3D[$CellContext`t$$], 
-            $CellContext`paraPluz[$CellContext`t$$]}]}, 
-         PlotRange -> {{-QuantityMagnitude[$CellContext`plutoSemiMajorAxis], 
-            QuantityMagnitude[$CellContext`plutoSemiMajorAxis]}, {-
-            QuantityMagnitude[$CellContext`plutoSemiMinorAxis], 
-            QuantityMagnitude[$CellContext`plutoSemiMinorAxis]}, {-
-            QuantityMagnitude[$CellContext`plutoSemiMajorAxis], 
-            QuantityMagnitude[$CellContext`plutoSemiMajorAxis]}}, Axes -> 
-         True]], "Specifications" :> {{$CellContext`t$$, 0, 
-         3115.4510354303080796135`7.698910800691146, 
-         AppearanceElements -> {
-          "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
-           "DirectionButton"}}}, 
-      "Options" :> {
-       ControlType -> Animator, AppearanceElements -> None, DefaultBaseStyle -> 
-        "Animate", DefaultLabelStyle -> "AnimateLabel", SynchronousUpdating -> 
-        True, ShrinkingDelay -> 10.}, "DefaultOptions" :> {}],
-     ImageSizeCache->{780., {144., 150.}},
-     SingleEvaluation->True],
-    Deinitialization:>None,
-    DynamicModuleValues:>{},
-    SynchronousInitialization->True,
-    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
-    UnsavedVariables:>{Typeset`initDone$$},
-    UntrackedVariables:>{Typeset`size$$}], "Animate",
-   Deployed->True,
-   StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{
-  3.858798079166913*^9, 3.8587981609961667`*^9, {3.858798479666044*^9, 
-   3.8587984890062294`*^9}},
- CellLabel->
-  "Out[209]=",ExpressionUUID->"a572b8ab-17f9-471a-a303-8c950d528be8"],
-
-Cell[BoxData[
- TagBox[
-  StyleBox[
-   DynamicModuleBox[{$CellContext`t$$ = 2420.1523735498613`, Typeset`show$$ = 
-    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-    "\"untitled\"", Typeset`specs$$ = {{
-      Hold[$CellContext`t$$], 0, 3115.4510354303080796135`7.698910800691146}},
-     Typeset`size$$ = {396.00000000000006`, {190., 195.85249598895803`}}, 
-    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
-    DynamicBox[Manipulate`ManipulateBoxes[
-     1, StandardForm, "Variables" :> {$CellContext`t$$ = 0}, 
-      "ControllerVariables" :> {}, 
-      "OtherVariables" :> {
-       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
-        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
-        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
-         Typeset`skipInitDone$$}, "Body" :> Graphics3D[{
-         PointSize[Large], Orange, 
-         Point[{
-           $CellContext`paraJupx[$CellContext`t$$], 
-           $CellContext`paraJupy3D[$CellContext`t$$], 
-           $CellContext`paraJupz[$CellContext`t$$]}], Yellow, 
-         Point[{
-           $CellContext`paraSatx[$CellContext`t$$], 
-           $CellContext`paraSaty3D[$CellContext`t$$], 
-           $CellContext`paraSatz[$CellContext`t$$]}], Cyan, 
-         Point[{
-           $CellContext`paraUrax[$CellContext`t$$], 
-           $CellContext`paraUray3D[$CellContext`t$$], 
-           $CellContext`paraUraz[$CellContext`t$$]}], Blue, 
-         Point[{
-           $CellContext`paraNepx[$CellContext`t$$], 
-           $CellContext`paraNepy3D[$CellContext`t$$], 
-           $CellContext`paraNepz[$CellContext`t$$]}], Purple, 
-         Point[{
-           $CellContext`paraPlux[$CellContext`t$$], 
-           $CellContext`paraPluy3D[$CellContext`t$$], 
-           $CellContext`paraPluz[$CellContext`t$$]}]}, 
-        PlotRange -> {{-QuantityMagnitude[$CellContext`plutoSemiMajorAxis], 
-           QuantityMagnitude[$CellContext`plutoSemiMajorAxis]}, {-
-           QuantityMagnitude[$CellContext`plutoSemiMinorAxis], 
-           QuantityMagnitude[$CellContext`plutoSemiMinorAxis]}, {-
-           QuantityMagnitude[$CellContext`plutoSemiMajorAxis], 
-           QuantityMagnitude[$CellContext`plutoSemiMajorAxis]}}, Axes -> 
-        True], "Specifications" :> {{$CellContext`t$$, 0, 
-         3115.4510354303080796135`7.698910800691146, 
-         AppearanceElements -> {
-          "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
-           "DirectionButton"}}}, 
-      "Options" :> {
-       ControlType -> Animator, AppearanceElements -> None, DefaultBaseStyle -> 
-        "Animate", DefaultLabelStyle -> "AnimateLabel", SynchronousUpdating -> 
-        True, ShrinkingDelay -> 10.}, "DefaultOptions" :> {}],
-     ImageSizeCache->{780., {213., 219.}},
-     SingleEvaluation->True],
-    Deinitialization:>None,
-    DynamicModuleValues:>{},
-    SynchronousInitialization->True,
-    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
-    UnsavedVariables:>{Typeset`initDone$$},
-    UntrackedVariables:>{Typeset`size$$}], "Animate",
-   Deployed->True,
-   StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{
-  3.858798079166913*^9, 3.8587981609961667`*^9, {3.858798479666044*^9, 
-   3.8587984890419483`*^9}},
- CellLabel->
-  "Out[210]=",ExpressionUUID->"c1add7c1-79aa-40a1-80be-bbb0e5e886a1"]
-}, Open  ]],
-
-Cell[CellGroupData[{
+H3MQnVJrehJE7zoreApEPy/I+giiJ1zl+QyiZ13b2iwOpOe7ze4E0WFLVCdK
+AOnybSqTQDQAXEG2pA==
+  "],ExpressionUUID->"99ac1d6c-e90c-4aa0-bf3a-c0eff8694742"],
 
 Cell[BoxData[
  RowBox[{"SetDirectory", "[", 
@@ -1145,14 +868,6 @@ Cell[BoxData[
  CellChangeTimes->{{3.858798493655695*^9, 3.8587985056259937`*^9}},
  CellLabel->
   "In[211]:=",ExpressionUUID->"da4339d6-178a-439f-9a63-851b62bb7d5f"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\detec\\\\orbitsmodel\\\\src\"\>"], "Output",
- CellChangeTimes->{3.858798506255718*^9},
- CellLabel->
-  "Out[211]=",ExpressionUUID->"db6dc4a0-fc46-4b56-b3a6-9cdcf8a421a0"]
-}, Open  ]],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[{
  RowBox[{"Export", "[", 
@@ -1170,31 +885,10 @@ Cell[BoxData[{
  CellChangeTimes->{{3.8587985092507153`*^9, 3.8587985121857758`*^9}, {
   3.8587985900097165`*^9, 3.858798705579651*^9}},
  CellLabel->
-  "In[212]:=",ExpressionUUID->"70771739-4607-4fb5-8e58-fe2cedb06d57"],
-
-Cell[BoxData["\<\"2DouterPlanetOrbitAxes.gif\"\>"], "Output",
- CellChangeTimes->{3.858798736813902*^9},
- CellLabel->
-  "Out[212]=",ExpressionUUID->"bec57f2c-8261-4348-aa05-095358789bdd"],
-
-Cell[BoxData["\<\"2DouterPlanetOrbitNoAxes.gif\"\>"], "Output",
- CellChangeTimes->{3.8587987593894105`*^9},
- CellLabel->
-  "Out[213]=",ExpressionUUID->"94dc5808-80d1-46cc-aa3b-e19fdb9bff85"],
-
-Cell[BoxData["\<\"3DouterPlanetOrbitAxes.gif\"\>"], "Output",
- CellChangeTimes->{3.858798785731453*^9},
- CellLabel->
-  "Out[214]=",ExpressionUUID->"0a71d722-b59b-44ad-ad8c-cdeb1721d9ce"],
-
-Cell[BoxData["\<\"3DouterPlanetOrbitNoAxes.gif\"\>"], "Output",
- CellChangeTimes->{3.858798810620105*^9},
- CellLabel->
-  "Out[215]=",ExpressionUUID->"a85ecbb0-4c10-4fdf-8e0a-49517bad7891"]
-}, Open  ]]
+  "In[212]:=",ExpressionUUID->"70771739-4607-4fb5-8e58-fe2cedb06d57"]
 },
-WindowSize->{574.8, 573.6},
-WindowMargins->{{Automatic, -4.7999999999999545`}, {Automatic, 0}},
+WindowSize->{574.8, 568.8},
+WindowMargins->{{Automatic, 1.2000000000000455`}, {Automatic, 0}},
 TaggingRules->{
  "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
 Magnification:>1.1 Inherited,
@@ -1224,29 +918,12 @@ Cell[15811, 403, 204, 4, 31, "Input",ExpressionUUID->"a5342ce3-cb68-4553-96c4-c9
 Cell[16018, 409, 3526, 88, 370, "Input",ExpressionUUID->"154316b7-d1e4-44b9-8a56-46bc7853b0cb"],
 Cell[19547, 499, 526, 11, 74, "Input",ExpressionUUID->"434ef4f8-7175-44b8-9810-29ba40c6f10d"],
 Cell[20076, 512, 933, 17, 95, "Input",ExpressionUUID->"7f9c43f6-1aba-4501-bbf8-32e0c40d3c2b"],
-Cell[CellGroupData[{
-Cell[21034, 533, 4234, 113, 494, "Input",ExpressionUUID->"9dad80e4-5e77-4597-9009-42045be55f0e"],
-Cell[25271, 648, 2791, 58, 442, "Output",ExpressionUUID->"982af1e7-96b2-476a-a1d9-e9b8775075df"],
-Cell[28065, 708, 3012, 61, 450, "Output",ExpressionUUID->"3b7971d4-3030-4bfb-b68d-dc357c8fec78"]
-}, Open  ]],
-Cell[31092, 772, 1402, 35, 137, "Input",ExpressionUUID->"0f74fdba-2172-490a-9163-574b64fdf1e2"],
-Cell[32497, 809, 650, 14, 95, "Input",ExpressionUUID->"ba45f4e2-c33b-4cfb-a5bf-33c10dcb92fb"],
-Cell[CellGroupData[{
-Cell[33172, 827, 6468, 165, 872, "Input",ExpressionUUID->"99ac1d6c-e90c-4aa0-bf3a-c0eff8694742"],
-Cell[39643, 994, 3554, 71, 314, "Output",ExpressionUUID->"a572b8ab-17f9-471a-a303-8c950d528be8"],
-Cell[43200, 1067, 3470, 69, 452, "Output",ExpressionUUID->"c1add7c1-79aa-40a1-80be-bbb0e5e886a1"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[46707, 1141, 255, 5, 31, "Input",ExpressionUUID->"da4339d6-178a-439f-9a63-851b62bb7d5f"],
-Cell[46965, 1148, 202, 3, 35, "Output",ExpressionUUID->"db6dc4a0-fc46-4b56-b3a6-9cdcf8a421a0"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[47204, 1156, 725, 16, 95, "Input",ExpressionUUID->"70771739-4607-4fb5-8e58-fe2cedb06d57"],
-Cell[47932, 1174, 186, 3, 35, "Output",ExpressionUUID->"bec57f2c-8261-4348-aa05-095358789bdd"],
-Cell[48121, 1179, 190, 3, 35, "Output",ExpressionUUID->"94dc5808-80d1-46cc-aa3b-e19fdb9bff85"],
-Cell[48314, 1184, 186, 3, 35, "Output",ExpressionUUID->"0a71d722-b59b-44ad-ad8c-cdeb1721d9ce"],
-Cell[48503, 1189, 188, 3, 83, "Output",ExpressionUUID->"a85ecbb0-4c10-4fdf-8e0a-49517bad7891"]
-}, Open  ]]
+Cell[21012, 531, 4239, 112, 494, "Input",ExpressionUUID->"9dad80e4-5e77-4597-9009-42045be55f0e"],
+Cell[25254, 645, 1402, 35, 137, "Input",ExpressionUUID->"0f74fdba-2172-490a-9163-574b64fdf1e2"],
+Cell[26659, 682, 650, 14, 95, "Input",ExpressionUUID->"ba45f4e2-c33b-4cfb-a5bf-33c10dcb92fb"],
+Cell[27312, 698, 6477, 164, 872, "Input",ExpressionUUID->"99ac1d6c-e90c-4aa0-bf3a-c0eff8694742"],
+Cell[33792, 864, 255, 5, 31, "Input",ExpressionUUID->"da4339d6-178a-439f-9a63-851b62bb7d5f"],
+Cell[34050, 871, 725, 16, 95, "Input",ExpressionUUID->"70771739-4607-4fb5-8e58-fe2cedb06d57"]
 }
 ]
 *)
