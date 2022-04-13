@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      9254,        239]
-NotebookOptionsPosition[      8770,        222]
-NotebookOutlinePosition[      9170,        238]
-CellTagsIndexPosition[      9127,        235]
+NotebookDataLength[      9370,        241]
+NotebookOptionsPosition[      8794,        222]
+NotebookOutlinePosition[      9286,        240]
+CellTagsIndexPosition[      9243,        237]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -127,12 +127,12 @@ Cell[BoxData[
  CellChangeTimes->{{3.8588009081508007`*^9, 3.858801017970457*^9}, {
   3.8588557335881453`*^9, 3.858855788656845*^9}},
  CellLabel->
-  "In[273]:=",ExpressionUUID->"d9a42cc7-257e-43a2-b38c-f09013c1f234"],
+  "In[237]:=",ExpressionUUID->"d9a42cc7-257e-43a2-b38c-f09013c1f234"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`t$$ = 574.3826561599747, Typeset`show$$ = 
+   DynamicModuleBox[{$CellContext`t$$ = 927.3257322946861, Typeset`show$$ = 
     True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{
@@ -215,13 +215,15 @@ $CellContext`outerPlanet2DParaPlot,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
  CellChangeTimes->{{3.8588009570306234`*^9, 3.858800987293454*^9}, 
-   3.8588557891892223`*^9},
+   3.8588557891892223`*^9, 3.8588607340309563`*^9},
  CellLabel->
-  "Out[273]=",ExpressionUUID->"ba77777f-5f25-4f76-bf53-051662d5b003"]
+  "Out[237]=",ExpressionUUID->"19cb927c-597b-47a6-a8a1-0b6a4ed408a8"]
 }, Open  ]]
 },
-WindowSize->{1920, 1037},
-WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+WindowSize->{1443, 1029},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+TaggingRules->{
+ "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
 FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"d75ef7cc-06a6-4fbf-abc0-8faa7da275a8"
@@ -238,8 +240,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 4318, 107, 162, "Input",ExpressionUUID->"d9a42cc7-257e-43a2-b38c-f09013c1f234"],
-Cell[4901, 131, 3853, 88, 458, "Output",ExpressionUUID->"ba77777f-5f25-4f76-bf53-051662d5b003"]
+Cell[580, 22, 4318, 107, 181, "Input",ExpressionUUID->"d9a42cc7-257e-43a2-b38c-f09013c1f234"],
+Cell[4901, 131, 3877, 88, 437, "Output",ExpressionUUID->"19cb927c-597b-47a6-a8a1-0b6a4ed408a8"]
 }, Open  ]]
 }
 ]
